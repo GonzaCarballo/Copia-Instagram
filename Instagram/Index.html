@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/instagram logo.jpg" type="image/x-icon">
+</head>
+<body>
+    
+    <header>
+        <img src="img/Instagram nombre.png" alt="Logo Instagram" id="imagen1">
+        <a href="Index.html"> <img src="img/Lupa.png" alt="Lupa"> Busqueda</a>
+        <div>
+            <img src="img/Casa inicio.png" alt="casa inicio" id="casa-inicio">
+            <img src="img/Corazon sin relleno.png" alt="Corazon sin relleno" id="imagen2">
+            <img src="img/Globo chat.png" alt="Chat" id="imagen3">
+        </div>
+
+
+    </header>
+
+    <main>
+      
+        <section id="historias">
+            <h1>Historias</h1>
+
+            <img src="img/Persona 0.png" alt="Foto perfil" id="foto-de-perfil"> <p> Juan García </p>
+            <img src="img/Persona 1.png" alt="Foto perfil 1"> <p> María Rodríguez </p>
+            <img src="img/Persona 2.png" alt="Foto perfil 2"> <p> Pedro Martínez </p>
+            <img src="img/Persona 3.png" alt="Foto perfil 3"> <p> Ana López </p>
+            <img src="img/Persona 4.png" alt="Foto perfil 4"> <p> Miguel Sánchez </p>
+            <img src="img/Persona 6.png" alt="Foto perfil 5"> <p> Laura Pérez </p>
+            <img src="img/Persona 5 .png" alt="Foto perfil 6"> <p> Carlos González </p>
+            
+            <a id="verTodos">Ver todas</a>
+        </section>
+
+        <section id="sugerencias">
+
+            <h2>Sugerencias para ti</h2>
+            <div id="divMessi">
+                <img src="img/messi foto perfil.jpg" alt="Messi perfil"> 
+                <p>@LeoMessi </p> 
+                <button id="Seguir1"> + Seguir</button> 
+                <button id="Siguiendo1" style="display: none;">Dejar de seguir</button>
+            </div>
+            <div id="divSuarez">
+                <img src="img/suarez.jpg" alt="Suarez perfil">
+                <p>@LuisSuarez</p> 
+                <button id="Seguir2"> + Seguir</button> 
+                <button id="Siguiendo2" style="display: none;">Dejar de seguir</button>
+            </div>
+            <div id="divDimaria">
+                <img src="img/dimaria.jpg" alt="DiMaria perfil">
+                <p>@AngelDiMaria</p> 
+                <button id="Seguir3" style="display: block;"> + Seguir</button> 
+                <button id="Siguiendo3" style="display: none;">Dejar de seguir</button>
+            </div>
+        </section>
+
+
+
+        <section id = "publicaciones">
+            <div id="parte-superior">
+                <div id="datos-perfil">
+                    <img src="img/Persona 0.png" alt="Foto perfil" id="Foto-Perfil">
+                    <p>Gonzalo Carballo</p>
+                </div>
+                <img src="img/Tres puntitos.png" alt="Tres puntitos" id="puntitos">
+            </div >
+            <div id="reportar" style="display: none;">
+                <b><h3>Informar un problema</h3></b>
+                <ul id="abrir-reporte">
+                <li>Denunciar un problema</li>
+                <li>Reportar spam</li>
+                <li>Ayuda</li>
+                </ul>
+                <a id="cerrar-informe">Cerrar</a>
+            </div>
+            <div id="enviar-reporte" style="display: none;">
+                <p>Volver</p>
+                <h2>Reporta tu problema</h2>
+                <textarea name="problema" rows="4" cols="50" placeholder="Contanos lo sucedido..." ></textarea>
+
+                <button id="reclamo-enviado">Enviar</button>
+            </div>
+
+            <div id="parte-foto">
+                <img src="img/Messi.jpg" alt="" id="foto-messi">
+                <div id="reacciones">
+                    <img src="img/Corazon rojo.png" alt="" id="reaccion-corazon" style="display: none"> 
+                    <img src="img/Corazon sin relleno.png"  alt="" id="corazon-sin-relleno">
+                    <img src="img/Globo chat.png" alt="" id="reaccion-comentario">
+                </div>
+                <div id="comentarios">
+                    <div id="likeYComentario">
+                        <p id="contador-likes"> 0 </p>
+                        <p>Me gusta</p>
+                    </div>
+                    
+                    <div id="descripcion-foto">
+                        <b><p>Gonzalo Carballo</p></b>
+                        <p>Somos campeones!</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+
+
+
+
+    </main>
+
+
+
+
+    <script src="script.js"> </script>
+</body>
+</html>
