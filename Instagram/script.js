@@ -178,3 +178,25 @@ botonEnviado.addEventListener("click", function(){
     enviarReporte.style.display="none";
     alert ("Reclamo enviado, muchas gracias.")
 })
+
+
+
+
+const dayMode = document.getElementById('DayMode');
+const darkMode = document.getElementById('DarkMode');
+
+dayModeActivado = true;
+
+dayMode.addEventListener("click", function(){
+   if(dayModeActivado==true){
+    dayMode.style.display="none";
+    darkMode.style.display="block"
+    dayModeActivado= false;
+    
+   } else if(dayModeActivado==false) {
+    dayMode.style.display="block";
+    darkMode.style.display="none"
+    dayModeActivado= true;
+   }
+})
+

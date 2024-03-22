@@ -25,20 +25,49 @@ a{
         height: 100%;
     }
    
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(12, 1fr); /* Divide el espacio en 12 columnas */
+        grid-gap: 10px; /* Espacio entre los elementos */
+        margin-bottom: 50px;
+    }
+
+    /* Dark mode */
+    #DarkMode{
+        display: flex;
+        width: 160px;
+        height: 105px;
+        grid-column: 12;
+        cursor: pointer;
+    }
+
+    #DayMode{
+        width: 155px;
+        height: 50px;
+        grid-column: 12;
+        cursor: pointer;
+    }
+
+
+
 
     /* Parte superior, logo instagram  Corazon y logo de mensajes */
-    header{
-        display: flex;
-        align-items: center; 
-        width: 100%;
-        flex-wrap: wrap;
-        margin-top: -20px;
-        background-color: #f7f2f2;  
-        box-shadow: 0px 4px 6px rgba(0,0,0,25%);
+    
+
+      
+        }
+        #barra-botones{
+            display: flex;
+            align-items: center; 
+            width: 100%;
+            flex-wrap: wrap;
+            margin-top: -20px;
+            background-color: #f7f2f2;  
+            box-shadow: 0px 4px 6px rgba(0,0,0,25%);
         
         }
 
-        header #imagen1{
+        header #Instagram-Nombre{
             width: 200px;
             margin-left: 0px;
         }
@@ -432,7 +461,7 @@ a{
         display: flex;
        }
     
-    }
+    
 
 
 
